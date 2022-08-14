@@ -1,0 +1,43 @@
+body {
+  margin:0 ;
+}
+
+.indexcontainer {
+  width: 100vw;
+  height:100vh;
+
+  display: grid;
+  grid-template-columns: 10% 8% auto 8% 10%;
+  grid-template-rows: 118px 300px 1fr 200px;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.indexheader {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+#navigation {
+  text-align: center;
+}
+
+#articleheader {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.indexmaincontent {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+#indexfooter {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}

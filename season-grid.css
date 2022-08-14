@@ -1,0 +1,162 @@
+body {
+  margin:0 ;
+}
+
+.seasoncontainer {
+  width: 100vw;
+  height:100vh;
+
+  display: grid;
+  grid-template-columns: 10% 60% 20% 10%;
+  grid-template-rows: 118px 118px auto auto auto auto auto auto auto auto auto auto 100px 200px;
+
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/*.seasoncontainer div {
+  padding: 10px;
+  border: 1px solid;
+}*/
+
+.seasonnumber {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.seasonheader {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+#navigation {
+  text-align: center;
+}
+
+.ep5preview {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 2
+}
+
+.ep4preview {
+  grid-row-start: 5;
+  grid-row-end: 5;
+  grid-column-start: 2
+}
+
+.ep3preview {
+  grid-row-start: 7;
+  grid-row-end: 7;
+  grid-column-start: 2
+}
+
+.ep2preview {
+  grid-row-start: 9;
+  grid-row-end: 9;
+  grid-column-start: 2
+}
+
+.ep1preview {
+  grid-row-start: 11;
+  grid-row-end: 11;
+  grid-column-start: 2
+}
+
+.episode5 {
+  grid-row-start: 4;
+  grid-row-end: 4;
+  grid-column-start: 2
+}
+
+.episode4 {
+  grid-row-start: 6;
+  grid-row-end: 6;
+  grid-column-start: 2
+}
+
+.episode3 {
+  grid-row-start: 8;
+  grid-row-end: 8;
+  grid-column-start: 2
+}
+
+.episode2 {
+  grid-row-start: 10;
+  grid-row-end: 10;
+  grid-column-start: 2
+}
+
+.episode1 {
+  grid-row-start: 12;
+  grid-row-end: 12;
+  grid-column-start: 2
+}
+
+.ep5trivia {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.ep4trivia {
+  grid-row-start: 5;
+  grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.ep3trivia {
+  grid-row-start: 7;
+  grid-row-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.ep2trivia {
+  grid-row-start: 9;
+  grid-row-end: 9;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.ep1trivia {
+  grid-row-start: 11;
+  grid-row-end: 11;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.seasonfooter {
+  grid-row-start: 14;
+  grid-row-end: 14;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.epvideo {
+
+  text-align: right;
+
+}
+
+.nextseason {
+  grid-row-start: 13;
+  grid-row-end: 13;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+#backhome {
+  grid-row-start: 13;
+  grid-row-end: 13;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  text-align: center;
+}
+
+

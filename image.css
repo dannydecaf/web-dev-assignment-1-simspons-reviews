@@ -1,0 +1,19 @@
+.episodeframe {
+  display: inline-block;
+  width: 640px;
+  height: 380px;
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+#couchpic {
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+#declinechart {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

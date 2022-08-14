@@ -1,0 +1,17 @@
+ul#menu li {
+	font-family: Impact,Georgia,serif;
+ display: inline;
+ padding-right: 1em;
+ padding-left: 1em;
+}
+
+ul#menu a {
+ text-decoration: none;
+ color: black;
+}
+
+#menu li.active a {
+ background: black;
+ padding: .5em 2em .5em 2em;
+ color: rgb(255, 255, 102);
+}

@@ -1,0 +1,230 @@
+@import url("index-grid.css");
+@import url("season-grid.css");
+@import url("image.css");
+@import url("nav.css");
+
+body {
+  font-family: Georgia,serif;
+  font-size: large;
+  line-height: 1.5em;
+}
+
+#introheader {
+  font-family: Impact,Georgia,serif;
+  text-align: left;
+  font-size: 280%;
+  color: black;
+  line-height: normal;
+}
+
+#author {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  font-weight: lighter;
+}
+
+#pubdate {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: right;
+  font-weight: lighter;
+}
+
+figcaption {
+  color: black;
+  font-style: italic;
+  font-size: small;
+  padding: 2px;
+  text-align: center;
+}
+
+.seasonnumber {
+  color: rgba(0, 0, 0, 0.3);
+  font-family: Impact,Georgia,serif;
+  text-align: center;
+}
+
+.episodeheader {
+  font-family: Impact,Georgia,serif;
+  font-size: 175%;
+}
+
+.specialguest {
+  font-family: Impact,Georgia,serif;
+  font-size: 95%;
+}
+
+footer {
+  color: rgb(255, 255, 102);
+  background-color: black;
+}
+
+.firstcharacter {
+  color: black;
+  float: left;
+  font-family: Georgia,serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.ep5trivia {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgb(230, 230, 250);
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Comic Sans MS, Georgia,serif;
+  font-size: large;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom: 10%;
+}
+
+.ep4trivia {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgb(230, 230, 250);
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Comic Sans MS, Georgia,serif;
+  font-size: large;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom: 10%;
+}
+
+.ep3trivia {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgb(230, 230, 250);
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Comic Sans MS, Georgia,serif;
+  font-size: large;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom: 10%;
+}
+
+.ep2trivia {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgb(230, 230, 250);
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Comic Sans MS, Georgia,serif;
+  font-size: large;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom: 10%;
+}
+
+.ep1trivia {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgb(230, 230, 250);
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Comic Sans MS, Georgia,serif;
+  font-size: large;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom: 10%;
+}
+
+.ep5quote {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgba(255, 255, 102, 0.5);
+  padding: 3%;
+  margin: 3%;
+  font-family: Comic Sans MS, Georgia,serif;
+}
+
+.ep4quote {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgba(255, 255, 102, 0.5);
+  padding: 3%;
+  margin: 3%;
+  font-family: Comic Sans MS, Georgia,serif;
+  }
+
+.ep3quote {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgba(255, 255, 102, 0.5);
+  padding: 3%;
+  margin: 3%;
+  font-family: Comic Sans MS, Georgia,serif;
+}
+
+.ep2quote {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgba(255, 255, 102, 0.5);
+  padding: 3%;
+  margin: 3%;
+  font-family: Comic Sans MS, Georgia,serif;
+}
+
+.ep1quote {
+  border-color: black;
+  border-width: 1px;
+  border-style: none;
+  background-color: rgba(255, 255, 102, 0.5);
+  padding: 3%;
+  margin: 3%;
+  font-family: Comic Sans MS, Georgia,serif;
+}
+
+.nextseason {
+  font-size: larger;
+  text-decoration: underline;
+  color: black;
+}
+
+#backhome {
+  font-size: larger;
+  text-decoration: underline;
+  color: black; 
+}
+
+#dcreviews  {
+  font-family: Georgia,serif;
+  text-align: center;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+#contactme {
+  font-family: Georgia,serif;
+  text-align: left;
+  font-size: medium;
+  margin-left: 2%;
+}
+
+#copyright  {
+  font-family: Georgia,serif;
+  text-align: right;
+  font-size: small;
+  margin-right: 2%;
+  }
+
+
